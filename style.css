@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 10px;
+    --loc: 0rem;
+}
+
+.body {
+    background-color: black;
+    height: 100vh;
+}
+
+main {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.6rem;
+
+    background-color: black;
+    height: 100%;
+    padding-bottom: 10rem;
+}
+
+nav {
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, .8);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    padding-inline: 4rem;
+    background-color: transparent;
+    max-width: 100rem;
+    margin: auto;
+    margin-bottom: 6rem;
+
+    &>div {
+        display: flex;
+        border-radius: .5rem;
+        cursor: pointer;
+        transition: background-color .2s, backdrop-filter .2s;
+
+        :hover& {
+            background-color: rgba(255, 255, 255, .1);
+            backdrop-filter: blur(.5rem);
+        }
+    }
+
+    & .nav-logo {
+        text-transform: capitalize;
+        font-variant: small-caps;
+        padding: 1rem;
+    }
+
+    & .nav-center {
+        overflow: hidden;
+
+        & div {
+            padding: 1rem;
+            transition: background-color .2s;
+            width: 7rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            :hover& {
+                background-color: rgba(0, 0, 0, .2);
+                color: white;
+            }
+        }
+    }
+
+    & .nav-search-icon {
+        font-size: 2rem;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        padding: 1rem;
+        /* width: 2rem; */
+    }
+}
+
+.section-content {
+    color: rgba(255, 255, 255, .8);
+}
+
+.top-main-content {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+
+    max-width: 100rem;
+    margin: auto;
+}
+
+.container-buttons {
+    display: flex;
+    gap: .5rem;
+
+    & button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 4rem;
+        height: 4rem;
+        font-size: 1.8rem;
+        background-color: rgba(255, 255, 255, .2);
+        backdrop-filter: blur(.5rem);
+        color: rgba(0, 0, 0, .7);
+        border: none;
+        border-radius: .2rem;
+        cursor: pointer;
+
+        transition: background-color .2s;
+
+        :hover& {
+            background-color: white;
+        }
+
+        :active& {
+            background-color: rgba(255, 255, 255, .3);
+        }
+    }
+
+    & .button-active {
+        background-color: whitesmoke;
+    }
+}
+
+
+.slider-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 50rem;
+
+    & p:nth-of-type(1) {
+        text-transform: capitalize;
+        font-variant: small-caps;
+        letter-spacing: .3rem;
+        color: rgba(255, 255, 255, .6);
+        font-size: 1.7rem
+    }
+
+    & h1 {
+        font-size: 9rem;
+    }
+
+    & p:nth-child(3) {
+        color: rgba(255, 255, 255, .6);
+    }
+}
+
+.container-images {
+    /* background-color: black; */
+    padding: 5rem;
+    padding-top: 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    max-width: 100rem;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.card-img {
+    outline: 1px solid transparent;
+    width: 14rem;
+    height: 20rem;
+    border-radius: .5rem;
+    border: 1px solid rgba(255, 255, 255, .1);
+    flex-shrink: 0;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(.5);
+
+    transition: filter .2s, outline .2s;
+
+    :hover& {
+        cursor: pointer;
+        filter: brightness(1);
+    }
+}
+
+.card-active {
+    filter: brightness(1);
+    outline: 1px solid rgba(255, 255, 255, .4);
+}
+
+.card0 {
+    background-image: url("src/img0.jpg");
+}
+
+.card1 {
+    background-image: url("src/img1.jpg");
+}
+
+.card2 {
+    background-image: url("src/img2.jpg");
+}
+
+.card3 {
+    background-image: url("src/img3.jpg");
+}
+
+.card4 {
+    background-image: url("src/img4.jpg");
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes openBg {
+    from {
+        filter: opacity(0%);
+        /* filter: blur(1rem); */
+    }
+}
+
+.openBg {
+    animation: openBg .8s;
+}
+
+.bg0 {
+    background: linear-gradient(180deg, transparent 40%, black), url("src/img0.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.bg1 {
+    background: linear-gradient(180deg, transparent 40%, black), url("src/img1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.bg2 {
+    background: linear-gradient(180deg, transparent 40%, black), url("src/img2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.bg3 {
+    background: linear-gradient(180deg, transparent 40%, black), url("src/img3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.bg4 {
+    background: linear-gradient(180deg, transparent 40%, black), url("src/img4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+@keyframes textAnimation {
+    from {
+        transform: translateY(40rem);
+        filter: blur(1rem);
+        opacity: 0;
+        rotate: 20deg;
+        scale: 0.9;
+    }
+}
+
+.slider-active {
+    animation: textAnimation .8s;
+}
