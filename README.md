@@ -1,11 +1,12 @@
 # 📌 Slider Images
-Projeto pessoal com o objetivo de treinar minhas skills em estilização CSS, animações e implementações com JavaScript.
+Este é um projeto pessoal desenvolvido para aprimorar minhas habilidades em estilização CSS, animações e manipulação de DOM com JavaScript.
 
 ![image](https://github.com/user-attachments/assets/93ff7099-8aa4-4226-9ae8-82ffa8fb6d76)
 
-<hr>
+## 🎯 Objetivo
+Desenvolver um slider/carrossel de imagens utilizando HTML, CSS e JavaScript. Focando em animações, transições e interatividade.
   
-## Com isso, pude treinar:
+## 🛠️ Habilidades treinadas:
 
 - CSS
   - Animações e transições
@@ -18,4 +19,5 @@ Projeto pessoal com o objetivo de treinar minhas skills em estilização CSS, an
   - Abstração de funções
   - Eventos
   - Controle de fluxo
- 
+
+## 🔗 Link para o projeto
