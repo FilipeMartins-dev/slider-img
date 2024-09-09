@@ -1,7 +1,11 @@
 # 📌 Slider Images
 Projeto pessoal com o objetivo de treinar minhas skills em estilização CSS, animações e implementações com JavaScript.
 
-Com isso, pude treinar:
+![image](https://github.com/user-attachments/assets/93ff7099-8aa4-4226-9ae8-82ffa8fb6d76)
+
+<hr>
+  
+## Com isso, pude treinar:
 
 - CSS
   - Animações e transições
@@ -14,3 +18,4 @@ Com isso, pude treinar:
   - Abstração de funções
   - Eventos
   - Controle de fluxo
+ 
