@@ -21,3 +21,4 @@ Desenvolver um slider/carrossel de imagens utilizando HTML, CSS e JavaScript. Fo
   - Controle de fluxo
 
 ## 🔗 Link para o projeto
+https://filipemartins-dev.github.io/slider-img/
