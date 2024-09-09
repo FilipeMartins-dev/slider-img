@@ -1,7 +1,7 @@
 # 📌 Slider Images
 Este é um projeto pessoal desenvolvido para aprimorar minhas habilidades em estilização CSS, animações e manipulação de DOM com JavaScript.
 
-![image](https://github.com/user-attachments/assets/93ff7099-8aa4-4226-9ae8-82ffa8fb6d76)
+![image](https://github.com/user-attachments/assets/185adc54-62e5-43be-942d-e14a393caf95)
 
 ## 🎯 Objetivo
 Desenvolver um slider/carrossel de imagens utilizando HTML, CSS e JavaScript. Focando em animações, transições e interatividade.
